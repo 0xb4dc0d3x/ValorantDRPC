@@ -89,7 +89,7 @@ class Utilities:
 
     @staticmethod 
     def get_join_state(client,config,presence=None):
-        '''
+        
         if presence is None:
             presence = client.fetch_presence()
         base_api_url = "https://colinhartigan.github.io/valorant-rpc?redir={redirect}&type={req_type}"
@@ -101,6 +101,6 @@ class Utilities:
             
             if presence["partyAccessibility"] == "CLOSED" and config["presences"]["menu"]["allow_join_requests"]:
                 return [{"label":"Request to Join","url":base_api_url.format(redirect=f"/valorant/request/{presence['partyId']}/{client.puuid}",req_type="request")}]
-        '''
+        
 
         return None
