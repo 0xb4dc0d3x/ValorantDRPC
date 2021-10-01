@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['D:\.Valorant\valorant-rpcc'],
+             pathex=['D:\\.Valorant\\valorant-rpcc'],
              binaries=[],
              datas=[],
              hiddenimports=['pystray._win32'],
