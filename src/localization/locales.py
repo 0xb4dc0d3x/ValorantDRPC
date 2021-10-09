@@ -1,6 +1,6 @@
 Locales = {
     "en-US": {
-        "author": "0xb4dc0d3x",
+        "author": "0xb4dc0d3dx",
         "config": {
             "version": "version",
             "region": "region",
@@ -98,13 +98,13 @@ Locales = {
             },
             "startup": {
                 "loading": "Loading",
-                "view_github": "Created by 0xb4dc0d3x - 🍔Tech",
+                "view_github": "🍔Tech",
             }
         },
     },
     "ar-AE": {},
     "de-DE": {
-        "author": "0xb4dc0d3x",
+        "author": "@zay#6353, @craftpiwurzel#8368",
         "config": {
             "version": "version",
             "region": "region",
@@ -202,12 +202,12 @@ Locales = {
             },
             "startup": {
                 "loading": "Lädt",
-                "view_github": "Created by 0xb4dc0d3x - 🍔Tech",
+                "view_github": "Auf GitHub ansehen",
             }
         },
     },
     "es-ES": {
-        "author": "0xb4dc0d3x",
+        "author": "@Rubiz#0822",
         "config": {
             "version": "versión",
             "region": "región",
@@ -305,12 +305,12 @@ Locales = {
             },
             "startup": {
                 "loading": "Cargando",
-                "view_github": "Created by 0xb4dc0d3x - 🍔Tech",
+                "view_github": "Ver en GitHub",
             }
         },
     },
     "es-MX": {
-        "author": "0xb4dc0d3x",
+        "author": "@víctor#0001",
         "config": {  # fix any grammar mistakes you can find
             "version": "versión",
             "region": "región",
@@ -409,14 +409,14 @@ Locales = {
             },
             "startup": {
                 "loading": "Cargando",
-                "view_github": "Created by 0xb4dc0d3x - 🍔Tech",
+                "view_github": "Ver en GitHub",
             }
         },
     },
     "fr-FR": {},
     "id-ID": {},
     "it-IT": {
-        "author": "0xb4dc0d3x",
+        "author": "@zay#6353",
         "config": {
             "version": "version",
             "region": "region",
@@ -514,12 +514,12 @@ Locales = {
             },
             "startup": {
                 "loading": "Caricamento",
-                "view_github": "Created by 0xb4dc0d3x - 🍔Tech",
+                "view_github": "Vedi su GitHub",
             }
         },
     },
     "ja-JP": {
-        # "author": "0xb4dc0d3x",
+        # "author": "@Yossi#1114",
 
         # cmd doesnt support kanji :(
         # "config": {
@@ -619,14 +619,14 @@ Locales = {
         #     },
         #     "startup": {
         #         "loading": "ロード中",
-        #         "view_github": "Created by 0xb4dc0d3x - 🍔Tech",
+        #         "view_github": "GitHubで確認",
         #     }
         # },
     },
     "ko-KR": {},
     "pl-PL": {},
     "pt-BR": {
-        "author": "0xb4dc0d3x",
+        "author": "@víctor#0001",
         "config": {
             "version": "versão",
             "region": "região",
@@ -724,12 +724,12 @@ Locales = {
             },
             "startup": {
                 "loading": "Carregando",
-                "view_github": "Created by 0xb4dc0d3x - 🍔Tech",
+                "view_github": "Ver no GitHub",
             }
         },
     },
      "ru-RU": {
-        "author": "0xb4dc0d3x",
+        "author": "@teddn#6036",
         "config": {
             "version": "Версия",
             "region": "Регион",
@@ -827,14 +827,14 @@ Locales = {
             },
             "startup": {
                 "loading": "Загрука",
-                "view_github": "Created by 0xb4dc0d3x - 🍔Tech",
+                "view_github": "GitHub",
             }
         }
     },
     "th-TH": {},
     "tr-TR": {},
     "vi-VN": {
-        "author": "0xb4dc0d3x",
+        "author": "@Mistral#9699",
         "config": {
             "version": "phiên_bản",
             "region": "khu_vực",
@@ -932,7 +932,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Đang tải",
-                "view_github": "Created by 0xb4dc0d3x - 🍔Tech",
+                "view_github": "Xem trên GitHub",
             }
         },
     },

@@ -1,7 +1,7 @@
 VSVersionInfo(
     ffi=FixedFileInfo(
-        filevers=(1, 0, 0, 0),
-        prodvers=(1, 0, 0, 0),
+        filevers=(1, 0, 1, 0),
+        prodvers=(1, 0, 1, 0),
         mask=0x3f,
         flags=0x0,
         OS=0x4,
@@ -11,12 +11,12 @@ VSVersionInfo(
     kids=[
         StringFileInfo([StringTable(
             u'040904B0',
-            [StringStruct(u'CompanyName', u' 0xb4dc0d3x'),
+            [StringStruct(u'CompanyName', u'0xb4dc0d3x'),
              StringStruct(u'FileDescription', u'VALORANT rich presence client'),
              StringStruct(u'FileVersion', u'1.0'),
-             StringStruct(u'InternalName', u'rpc'),
+             StringStruct(u'InternalName', u'rpcv'),
              StringStruct(u'LegalCopyright', u'0xb4dc0d3x'),
-             StringStruct(u'OriginalFilename', u'valorant-rpc.exe'),
+             StringStruct(u'OriginalFilename', u'valorant-drpc.exe'),
              StringStruct(u'ProductName', u'VALORANT-rpc'),
-             StringStruct(u'ProductVersion', u'1.0.0')])]),
+             StringStruct(u'ProductVersion', u'1.0.1')])]),
         VarFileInfo([VarStruct(u'Translation', [1033, 1200])])])

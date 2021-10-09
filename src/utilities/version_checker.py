@@ -12,5 +12,5 @@ class Checker:
             latest = data.json()["tag_name"]
             if latest != current_version:
                 color_print([("Yellow bold",f"({current_version} -> {latest}) {Localizer.get_localized_text('prints','version_checker','update_available')} "),("Cyan underline",f"https://github.com/0xb4dc0d3x/valorantDRPC/releases/tag/{latest}")])
-        except:                                                                                                                                                                    
+        except:
             color_print([("Yellow bold",Localizer.get_localized_text("prints","version_checker","checker_error"))])
