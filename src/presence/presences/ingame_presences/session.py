@@ -56,7 +56,7 @@ class Game_Session:
 
                 self.rpc.update(
                     state=party_state,
-                    details=f"{self.mode_name} // {my_score} - {other_score}",
+                    details=f"{self.mode_name} | {my_score} - {other_score}",
                     start=self.start_time,
                     large_image=self.large_image,
                     large_text=self.large_text,
