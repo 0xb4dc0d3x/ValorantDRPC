@@ -7,6 +7,6 @@ def presence(rpc,client=None,data=None,content_data=None,config=None):
         large_text="VALORANT-rpc",
         buttons=[{
             'label':Localizer.get_localized_text("presences","startup","view_github"),
-            'url':"https://burgertech-inc.github.io"
+            'url':"https://burgertech-inc.github.io/"
         }] if Localizer.get_config_value("startup","show_github_link") else None
     )

@@ -7,7 +7,7 @@ from ...localization.locales import Locales
 from ...localization.localization import Localizer
 
 default_config = {
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "region": ["",Client.fetch_regions()],
     "client_id": 811469787657928704,
     "presence_refresh_interval": 3,
@@ -24,7 +24,7 @@ default_config = {
                 "large_image": ["map",["rank","agent","map"]],
             },
             "range": {
-                "show_rank_in_range": False,
+                "show_rank_in_range": True,
             }
         }
     },
@@ -32,7 +32,7 @@ default_config = {
         "game_launch_timeout": 50,
         "presence_timeout": 60,
         "show_github_link": True,
-        "auto_launch_skincli": True,
+        "auto_launch_skincli": False,
     },
 }
 
