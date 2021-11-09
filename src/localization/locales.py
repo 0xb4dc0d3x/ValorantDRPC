@@ -1,6 +1,6 @@
 Locales = {
     "en-US": {
-        "author": "0xb4dc0d3dx",
+        "author": "HeiseN#6559",
         "config": {
             "version": "version",
             "region": "region",
@@ -98,11 +98,113 @@ Locales = {
             },
             "startup": {
                 "loading": "Loading",
-                "view_github": "🍔Tech",
+                "view_github": "Burger🍔",
             }
         },
     },
-    "ar-AE": {},
+    "ar-AE": {
+        "author": "@Ozama#8188",
+        "config": {
+            "version": "الإصدار",
+            "region": "المنطقة",
+            "client_id": "client_ID",
+            "presence_refresh_interval": "الفاصل_الزمني_لتحديث_الحالة",
+            "locale": "locale",
+            "presences": "الحالات",
+            "menu": "القائمة",
+            "show_rank_in_comp_lobby": "عرض_الرانك",
+            "modes": "الأنماط",
+            "all": "الكل",
+            "small_image": "صورة_صغيرة",
+            "large_image": "صورة_عريضة",
+            "range": "تدريب",
+            "show_rank_in_range": "عرض_الرانك_في_التدريب",
+            "startup": "startup",
+            "game_launch_timeout": "إنتهت_مهلة_بدأ_اللعبة",
+            "presence_timeout": "إنتهت_مهلة_الحالة",
+            "show_github_link": "عرض_رابط_GitHub",
+            "auto_launch_skincli": "auto_launch_skincli",
+            "agent": "العميل",
+            "rank": "الرانك",
+            "map": "الخريطة",
+        },
+        "prints": {
+            "config_modification": {
+                "select_option": "حدد خيار اللإعداد",
+                "config_saved": "تم حفظ الإعدادات! أعد تشغيل البرنامج لمشاهدة التغيرات",
+                "set_prompt": "عيّن قيمة"
+            },
+            "startup": {
+                "wait_for_rpc": "يرجى إنتظار الحالة المخصصة ...",
+                "discord_not_detected": "لم يتم التعرف على ديسكورد, يجري تشغيل اللعبة دون الحالة المخصصة",
+                "starting_valorant": "جاري تشغيل فالورانت ...",
+                "startup_successful": "تم تشغيل البرنامج, يجري إخفاء النافذة بعد 5 ثوان ...",
+                "waiting_for_presence": "في إنتظار الحالة ...",
+                "waiting_for_valorant": "في إنتظار فالورانت ...",
+                "autodetect_region": "محاولة الكشف التلقائي عن المنطقة",
+                "autodetected_region": "تم الكشف عن المنطقة :",
+            },
+            "presence": {
+                "presence_running": "الحالة قيد التشغيل",
+            },
+            "systray": {
+                "hiding_window": "إخفاء النافذة",
+            },
+            "errors": {
+                "error_message": "حدث خطأ: الرجاء إنشاء خطأ على github مع التتبع الموجود أسفل هذه الرسالة إذا استمرت المشكلة.",
+                "exit": "إضغط على Enter للإغلاق",
+            },
+            "version_checker": {
+                "update_available": "تحديث متاح! قم بتنزيله من هنا:",
+                "checker_error": "لا يمكن العثور على تحديث",
+            }
+        },
+        "presences": {
+            "party_states": {
+                "open": "مفتوح",
+                "solo": "فردي",
+                "in_party": "في بارتي",
+            },
+            "client_states": {
+                "away": "بعيد",
+                "menu": "القائمة",
+                "custom_setup": "مخصص",
+                "queue": "طابور",
+                "pregame": "البحث عن مباراة",
+            },
+            "team_names": {
+                "TeamOne": "مدافع",
+                "TeamTwo": "مهاجم",
+                "TeamSpectate": "مشاهد",
+                "TeamOneCoaches": "مدرب المدافعين",
+                "TeamTwoCoaches": "مدرب المهاجمين",
+            },
+            "modes": {
+                "newmap": "خريطة جديدة",
+                "competitive": "تنافسي",
+                "unrated": "غير مصنف",
+                "spikerush": "سبايك راش",
+                "deathmatch": "مبارات الموت",
+                "ggteam": "تصعيد",
+                "onefa": "إستنساخ",
+                "custom": "مخصص",
+                "snowball": "كرات الثلج",
+                "": "خاص",
+            },
+            "pregame": {
+                "selecting": "إختيار عميل",
+                "locked": "مغلق",
+            },
+            "leveling": {
+                "level": "المستوى",
+                "ranked_rating": "RR",
+            },
+            "startup": {
+                "loading": "تحميل",
+                "view_github": "Burger🍔",
+            }
+        },
+    },
     "de-DE": {
         "author": "@zay#6353, @craftpiwurzel#8368",
         "config": {
@@ -202,7 +304,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Lädt",
-                "view_github": "Auf GitHub ansehen",
+                "view_github": "Burger🍔",
             }
         },
     },
@@ -305,7 +407,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Cargando",
-                "view_github": "Ver en GitHub",
+                "view_github": "Burger🍔",
             }
         },
     },
@@ -409,7 +511,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Cargando",
-                "view_github": "Ver en GitHub",
+                "view_github": "Burger🍔",
             }
         },
     },
@@ -514,114 +616,112 @@ Locales = {
             },
             "startup": {
                 "loading": "Caricamento",
-                "view_github": "Vedi su GitHub",
+                "view_github": "Burger🍔",
             }
         },
     },
     "ja-JP": {
-        # "author": "@Yossi#1114",
-
-        # cmd doesnt support kanji :(
-        # "config": {
-        #     "version": "バージョン",
-        #     "region": "地域",
-        #     "client_id": "client_id",
-        #     "presence_refresh_interval": "ステータス_更新_間隔",
-        #     "locale": "locale",
-        #     "presences": "ステータス",
-        #     "menu": "メニュー",
-        #     "show_rank_in_comp_lobby": "ランク戦中に_ランクを_表示",
-        #     "modes": "モード",
-        #     "all": "全て",
-        #     "small_image": "画像_小",
-        #     "large_image": "画像_大",
-        #     "range": "射撃場",
-        #     "show_rank_in_range": "射撃場で_ランクを_表示",
-        #     "startup": "スタートアップ",
-        #     "game_launch_timeout": "ゲーム_起動_タイムアウト",
-        #     "presence_timeout": "ステータス_タイムアウト",
-        #     "show_github_link": "GitHubの_リンクを_表示",
-        #     "auto_launch_skincli": "skincliを_自動で_起動",
-        #     "agent": "エージェント",
-        #     "rank": "ランク",
-        #     "map": "マップ",
-        # },
-        # "prints": {
-        #     "config_modification": {
-        #         "select_option": "設定を選択する",
-        #         "config_saved": "設定を保存しました！ プログラムを再起動して設定を有効化してください。",
-        #         "set_prompt": "値を設定:"
-        #     },
-        #     "startup": {
-        #         "wait_for_rpc": "rpcクライアントを待機中",
-        #         "discord_not_detected": "Discordの起動が確認できませんでした。ステータスの表示なしでゲームを起動します。",
-        #         "starting_valorant": "VALORANTを起動中",
-        #         "startup_successful": "プログラムの起動が完了、 ウィンドウを5秒以内に閉じます...",
-        #         "waiting_for_presence": "ステータスを待機中...",
-        #         "waiting_for_valorant": "VALORANTを待機中...",
-        #         "autodetect_region": "地域の自動検出を試みています...",
-        #         "autodetected_region": "自動検出された地域:",
-        #     },
-        #     "presence": {
-        #         "presence_running": "ステータス表示中！",
-        #     },
-        #     "systray": {
-        #         "hiding_window": "ウィンドウを閉じる",
-        #     },
-        #     "errors": {
-        #         "error_message": "プログラムがエラーを検出: 問題が続く場合は以下の記録とともにissueを作成してください。",
-        #         "exit": "Enterを押して閉じる...",
-        #     },
-        #     "version_checker": {
-        #         "update_available": "アップデートが利用可能です！ こちらでダウンロードしてください:",
-        #         "checker_error": "アップデートを確認できませんでした。",
-        #     }
-        # },
-        # "presences": {
-        #     "party_states": {
-        #         "open": "オープンパーティー",
-        #         "solo": "ソロ",
-        #         "in_party": "パーティーに参加中",
-        #     },
-        #     "client_states": {
-        #         "away": "離席中",
-        #         "menu": "メニュー",
-        #         "custom_setup": "カスタム設定",
-        #         "queue": "マッチを検索中",
-        #         "pregame": "試合開始前",
-        #     },
-        #     "team_names": {
-        #         "TeamOne": "ディフェンダー",
-        #         "TeamTwo": "アタッカー",
-        #         "TeamSpectate": "観戦者",
-        #         "TeamOneCoaches": "ディフェンダー側コーチ",
-        #         "TeamTwoCoaches": "アタッカー側コーチ",
-        #     },
-        #     "modes": {
-        #         "newmap": "新マップ",
-        #         "competitive": "コンペティティブ",
-        #         "unrated": "アンレート",
-        #         "spikerush": "スパイクラッシュ",
-        #         "deathmatch": "デスマッチ",
-        #         "ggteam": "エスカレーション",
-        #         "onefa": "レプリケーション",
-        #         "custom": "カスタムゲーム",
-        #         "snowball": "スノーボールファイト",
-        #         "": "カスタム",
-        #     },
-        #     "pregame": {
-        #         "selecting": "選択中",
-        #         "locked": "ロック済み",
-        #     },
-        #     "leveling": {
-        #         "level": "レベル",
-        #         "ranked_rating": "RR",
-        #     },
-        #     "startup": {
-        #         "loading": "ロード中",
-        #         "view_github": "GitHubで確認",
-        #     }
-        # },
+        "author": "@Yossi#1114",
+        "config": {
+            "version": "バージョン",
+            "region": "地域",
+            "client_id": "client_id",
+            "presence_refresh_interval": "presence_refresh_interval",
+            "locale": "locale",
+            "presences": "ステータス",
+            "menu": "メニュー",
+            "show_rank_in_comp_lobby": "show_rank_in_comp_lobby",
+            "modes": "モード",
+            "all": "全て",
+            "small_image": "small_image",
+            "large_image": "large_image",
+            "range": "射撃場",
+            "show_rank_in_range": "show_rank_in_range",
+            "startup": "スタートアップ",
+            "game_launch_timeout": "game_launch_timeout",
+            "presence_timeout": "presence_timeout",
+            "show_github_link": "show_github_link",
+            "auto_launch_skincli": "auto_launch_skincli",
+            "agent": "エージェント",
+            "rank": "ランク",
+            "map": "マップ",
+        },
+        "prints": {
+            "config_modification": {
+                "select_option": "設定を選択する",
+                "config_saved": "設定を保存しました！ プログラムを再起動して設定を有効化してください。",
+                "set_prompt": "値を設定:"
+            },
+            "startup": {
+                "wait_for_rpc": "rpcクライアントを待機中",
+                "discord_not_detected": "Discordの起動が確認できませんでした。ステータスの表示なしでゲームを起動します。",
+                "starting_valorant": "VALORANTを起動中",
+                "startup_successful": "プログラムの起動が完了、 ウィンドウを5秒以内に閉じます...",
+                "waiting_for_presence": "ステータスを待機中...",
+                "waiting_for_valorant": "VALORANTを待機中...",
+                "autodetect_region": "地域の自動検出を試みています...",
+                "autodetected_region": "自動検出された地域:",
+            },
+            "presence": {
+                "presence_running": "ステータス表示中！",
+            },
+            "systray": {
+                "hiding_window": "ウィンドウを閉じる",
+            },
+            "errors": {
+                "error_message": "プログラムがエラーを検出: 問題が続く場合は以下の記録とともにissueを作成してください。",
+                "exit": "Enterを押して閉じる...",
+            },
+            "version_checker": {
+                "update_available": "アップデートが利用可能です！ こちらでダウンロードしてください:",
+                "checker_error": "アップデートを確認できませんでした。",
+            }
+        },
+        "presences": {
+            "party_states": {
+                "open": "オープンパーティー",
+                "solo": "ソロ",
+                "in_party": "パーティーに参加中",
+            },
+            "client_states": {
+                "away": "離席中",
+                "menu": "メニュー",
+                "custom_setup": "カスタム設定",
+                "queue": "マッチを検索中",
+                "pregame": "試合開始前",
+            },
+            "team_names": {
+                "TeamOne": "ディフェンダー",
+                "TeamTwo": "アタッカー",
+                "TeamSpectate": "観戦者",
+                "TeamOneCoaches": "ディフェンダー側コーチ",
+                "TeamTwoCoaches": "アタッカー側コーチ",
+            },
+            "modes": {
+                "newmap": "新マップ",
+                "competitive": "コンペティティブ",
+                "unrated": "アンレート",
+                "spikerush": "スパイクラッシュ",
+                "deathmatch": "デスマッチ",
+                "ggteam": "エスカレーション",
+                "onefa": "レプリケーション",
+                "custom": "カスタムゲーム",
+                "snowball": "スノーボールファイト",
+                "": "カスタム",
+            },
+            "pregame": {
+                "selecting": "選択中",
+                "locked": "ロック済み",
+            },
+            "leveling": {
+                "level": "レベル",
+                "ranked_rating": "RR",
+            },
+            "startup": {
+                "loading": "ロード中",
+                "view_github": "Burger🍔",
+            }
+        },
     },
     "ko-KR": {},
     "pl-PL": {},
@@ -724,7 +824,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Carregando",
-                "view_github": "Ver no GitHub",
+                "view_github": "Burger🍔",
             }
         },
     },
@@ -827,12 +927,216 @@ Locales = {
             },
             "startup": {
                 "loading": "Загрука",
-                "view_github": "GitHub",
+                "view_github": "Burger🍔",
             }
         }
     },
-    "th-TH": {},
-    "tr-TR": {},
+    "th-TH": {
+        "author": "@Nack#2336",
+        "config": {
+            "version": "เวอร์ชั่น",
+            "region": "ภูมิภาค",
+            "client_id": "ไอดี",
+            "presence_refresh_interval": "ระยะเวลาในการรีเฟรช_Presence",
+            "locale": "ภาษา",
+            "presences": "presences",
+            "menu": "เมนู",
+            "show_rank_in_comp_lobby": "โชว์แร้งค์_ในโหมดแร้งค์",
+            "modes": "โหมด",
+            "all": "ทั้งหมด",
+            "small_image": "รูปเล็ก",
+            "large_image": "รูปใหญ่",
+            "range": "โหมดฝึกฝน",
+            "show_rank_in_range": "โชว์แร้งค์_ในโหมดฝึกฝน",
+            "startup": "เริ่มอัตโนมัติ",
+            "game_launch_timeout": "ระยะเวลาสูงสุด_ในการเปิดเกม",
+            "presence_timeout": "ระยะเวลาสูงสุดของ_Presence",
+            "show_github_link": "โชว์ลิ้งค์_Github",
+            "auto_launch_skincli": "เปิด_skincli_อัตโนมัติ",
+            "agent": "เอเจ้นท์",
+            "rank": "แร้งค์",
+            "map": "แมพ",
+        },
+        "prints": {
+            "config_modification": {
+                "select_option": "เลือกการตั้งค่า",
+                "config_saved": "ตั้งค่าสำเร็จ! โปรดเปิดโปรแกรมใหม่เพื่อใช้งาน.",
+                "set_prompt": "ตั้งค่าเป็น"
+            },
+            "startup": {
+                "wait_for_rpc": "กำลังรอ RPC",
+                "discord_not_detected": "ไม่พบ Discord! กำลังเปิดเกมโดยไม่มี Presence...",
+                "starting_valorant": "กำลังเปิด VALORANT",
+                "startup_successful": "กำลังเริ่มทำงาน, ปิดหน้าต่างในอีก 5 วินาที",
+                "waiting_for_presence": "กำลังรอ Presence...",
+                "waiting_for_valorant": "กำลังรอ VALORANT...",
+                "autodetect_region": "กำลังตรวจหาภูมิภาค",
+                "autodetected_region": "ภูมิภาค:",
+            },
+            "presence": {
+                "presence_running": "Presence กำลังทำงานอยู่!",
+            },
+            "systray": {
+                "hiding_window": "ซ่อนหน้าต่าง",
+            },
+            "errors": {
+                "error_message": "มีข้อผิดพลาด: หากยังมีปัญหาอยู่, โปรดเปิด Issue บน Github.",
+                "exit": "กด Enter เพื่อออก...",
+            },
+            "version_checker": {
+                "update_available": "พบเวอร์ชั่นที่ใหม่กว่า! ดาวน์โหลดได้ที่",
+                "checker_error": "ไม่สามารถตรวจหาอัพเดทได้!",
+            }
+        },
+        "presences": {
+            "party_states": {
+                "open": "ปาร์ตี้เปิด",
+                "solo": "เดี่ยว",
+                "in_party": "อยู่ในปาร์ตี้",
+            },
+            "client_states": {
+                "away": "ไม่อยู่",
+                "menu": "เมนู",
+                "custom_setup": "สร้างห้อง",
+                "queue": "อยู่ในคิว",
+                "pregame": "กำลังเลือกเอเจ้นท์",
+            },
+            "team_names": {
+                "TeamOne": "ฝั่งป้องกัน",
+                "TeamTwo": "ฝั่งบุก",
+                "TeamSpectate": "ผู้ชม",
+                "TeamOneCoaches": "โค้ชของฝั่งป้องกัน",
+                "TeamTwoCoaches": "โค้ชของฝั่งบุก",
+            },
+            "modes": {
+                "newmap": "แมพใหม่",
+                "competitive": "แร้งค์",
+                "unrated": "ธรรมดา",
+                "spikerush": "Spike Rush",
+                "deathmatch": "เดธแมตช์",
+                "ggteam": "Escalation",
+                "onefa": "โหมดตัวซ้ำ",
+                "custom": "สร้างห้อง",
+                "snowball": "สงครามหิมะ",
+                "": "สร้างห้อง",
+            },
+            "pregame": {
+                "selecting": "กำลังเลือกเอเจ้นท์",
+                "locked": "เลือกเอเจ้นท์แล้ว",
+            },
+            "leveling": {
+                "level": "เลเวล",
+                "ranked_rating": "RR",
+            },
+            "startup": {
+                "loading": "กำลังโหลด",
+                "view_github": "Burger🍔",
+            }
+        },
+    },
+    "tr-TR": {
+        "author": "@MKerem#2078",
+        "config": {
+            "version": "versiyon",
+            "region": "bölge",
+            "client_id": "istemci_id",
+            "presence_refresh_interval": "durum_yenileme_aralığı",
+            "locale": "dil",
+            "presences": "durumlar",
+            "menu": "menü",
+            "show_rank_in_comp_lobby": "dereceli_lobide_rank_göster",
+            "modes": "modlar",
+            "all": "hepsi",
+            "small_image": "küçük_resim",
+            "large_image": "büyük_resim",
+            "range": "aralık",
+            "show_rank_in_range": "aralıktaki_sıralamayı_göster",
+            "startup": "başlangıç",
+            "game_launch_timeout": "oyun_başlama_zaman_aşımı",
+            "presence_timeout": "durum_zaman_aşımı",
+            "show_github_link": "github_linkini_göster",
+            "auto_launch_skincli": "skincli_otomatik_başlat",
+            "agent": "ajan",
+            "rank": "rank",
+            "map": "harita",
+        },
+        "prints": {
+            "config_modification": {
+                "select_option": "Bir yapılandırma seçeneği seçin.",
+                "config_saved": "Ayarlar kaydedildi! Değişikliklerin uygulanması için programı yeniden başlat.",
+                "set_prompt": "için değer ayarla"
+            },
+            "startup": {
+                "wait_for_rpc": "rpc istemcisi bekleniyor.",
+                "discord_not_detected": "Discord algılanmadı! Oyun Discord durumu olmadan başlatılıyor...",
+                "starting_valorant": "VALORANT başlatılıyor.",
+                "startup_successful": "Programın çalıştırılması başarılı, pencere beş saniye içinde gizleniyor.",
+                "waiting_for_presence": "Discord durumu için bekleniyor...",
+                "waiting_for_valorant": "VALORANT bekleniyor...",
+                "autodetect_region": "Bölge otomatik algılanmaya çalışılıyor.",
+                "autodetected_region": "Otomatik algılanan bölge:",
+            },
+            "presence": {
+                "presence_running": "Discord durumu çalışıyor!",
+            },
+            "systray": {
+                "hiding_window": "Pencere gizleniyor.",
+            },
+            "errors": {
+                "error_message": "Program bir hata ile karşılaştı: Bu sorun devam ederse lütfen aşağıdaki hata mesajı ile beraber bir issue oluşturun.",
+                "exit": "Çıkmak için enter tuşuna basın...",
+            },
+            "version_checker": {
+                "update_available": "Güncelleme mevcut! Buradan indir: ",
+                "checker_error": "Güncellemeler kontrol edilemedi!",
+            }
+        },
+        "presences": {
+            "party_states": {
+                "open": "Takım kur",
+                "solo": "Solo",
+                "in_party": "Takımda",
+            },
+            "client_states": {
+                "away": "Dışarıda",
+                "menu": "Menü",
+                "custom_setup": "Özel Maç",
+                "queue": "Sırada",
+                "pregame": "Oyun Öncesi",
+            },
+            "team_names": {
+                "TeamOne": "Savunma",
+                "TeamTwo": "Saldırı",
+                "TeamSpectate": "İzleyici",
+                "TeamOneCoaches": "Savunma Antrenmanı",
+                "TeamTwoCoaches": "Saldırı Antrenmanı",
+            },
+            "modes": {
+                "newmap": "Yeni Harita",
+                "competitive": "Dereceye Dayalı",
+                "unrated": "Derecesiz",
+                "spikerush": "Spike Yarışı",
+                "deathmatch": "Ölüm Kalım Savaşı",
+                "ggteam": "Tırmanış",
+                "onefa": "Kopya",
+                "custom": "Özel Maç",
+                "snowball": "Kartopu Savaşı",
+                "": "Özel Maç",
+            },
+            "pregame": {
+                "selecting": "Seçiyor",
+                "locked": "Kilitli",
+            },
+            "leveling": {
+                "level": "Seviye",
+                "ranked_rating": "KP",
+            },
+            "startup": {
+                "loading": "Yükleniyor...",
+                "view_github": "Burger🍔",
+            }
+        },
+    },
     "vi-VN": {
         "author": "@Mistral#9699",
         "config": {
@@ -932,10 +1236,113 @@ Locales = {
             },
             "startup": {
                 "loading": "Đang tải",
-                "view_github": "Xem trên GitHub",
+                "view_github": "Burger🍔",
             }
         },
     },
     "zh-CN": {},
     "zh-TW": {},
+    "fr-FR": {
+        "author": "@Hurdenn#2777",
+        "config": {
+            "version": "version",
+            "region": "region",
+            "client_id": "ID_client",
+            "presence_refresh_interval": "interval_rafraichissement_présence",
+            "locale": "localisation",
+            "presences": "status",
+            "menu": "menu",
+            "show_rank_in_comp_lobby": "montrer_rang_en_partie_compétitive",
+            "modes": "modes",
+            "all": "tous",
+            "small_image": "petite_image",
+            "large_image": "grande_image",
+            "range": "camp_d'entrainement",
+            "show_rank_in_range": "montrer_rang_dans_le_camp_d'entrainement",
+            "startup": "lancement",
+            "game_launch_timeout": "délai_d'expiration_lancement_jeu",
+            "presence_timeout": "délai_d'expiration_présence",
+            "show_github_link": "montrer_lien_github",
+            "auto_launch_skincli": "lancement_automatique_skincli",
+            "agent": "agent",
+            "rank": "rang",
+            "map": "carte",
+        },
+       "prints": {
+            "config_modification": {
+                "select_option": "sélectinnez une option de configuration",
+                "config_saved": "configuration sauvée! Relancez le programme pour que les changements prennent effets.",
+                "set_prompt": "set value for"
+            },
+            "startup": {
+                "wait_for_rpc": "en attente du client rpc",
+                "discord_not_detected": "discord non détecté! lancement du jeu sans présence...",
+                "starting_valorant": "lancement de VALORANT",
+                "startup_successful": "lancement du programme réussi, la fenêtre sera cachée dans 5 secondes",
+                "waiting_for_presence": "en attente de la présence...",
+                "waiting_for_valorant": "en attente de VALORANT...",
+                "autodetect_region": "tentative de détection automatique de la région",
+                "autodetected_region": "région détectée automatiquement:",
+            },
+            "presence": {
+                "presence_running": "la présence est en cours!",
+            },
+            "systray": {
+                "hiding_window": "dissimulation de la fenêtre",
+            },
+            "errors": {
+                "error_message": "le programme a rencontré une erreur: veuillez créer une erreur avec le retour ci-dessous si ce problème persiste",
+                "exit": "appuyez sur entrer pour quitter...",
+            },
+            "version_checker": {
+                "update_available": "une mise à jour est disponible! téléchargez-la via",
+                "checker_error": "impossible de vérifier les mises à jour!",
+            }
+        },
+        "presences": {
+            "party_states": {
+                "open": "Partie ouverte",
+                "solo": "Seul",
+                "in_party": "Dans une Partie",
+            },
+            "client_states": {
+                "away": "Absent",
+                "menu": "Menu",
+                "custom_setup": "Préparation de Personalisée",
+                "queue": "En recherche de partie",
+                "pregame": "Pré-partie",
+            },
+            "team_names": {
+                "TeamOne": "Défense",
+                "TeamTwo": "Attaque",
+                "TeamSpectate": "Observateur",
+                "TeamOneCoaches": "Coach de la défense",
+                "TeamTwoCoaches": "Coach de l'attaque",
+            },
+            "modes": {
+                "newmap": "Nouvelle carte",
+                "competitive": "Compétitive",
+                "unrated": "Non classée",
+                "spikerush": "Spike Rush",
+                "deathmatch": "Match à mort",
+                "ggteam": "Intensification",
+                "onefa": "Réplication",
+                "custom": "Partie personalisée",
+                "snowball": "Bataille de boule de neige",
+                "": "Pesonalisée",
+            },
+            "pregame": {
+                "selecting": "En sélection",
+                "locked": "Verrouillé",
+            },
+            "leveling": {
+                "level": "Niveau",
+                "ranked_rating": "RR",
+            },
+            "startup": {
+                "loading": "Chargement",
+                "view_github": "Burger🍔",
+            }
+        },
+    },
 }
