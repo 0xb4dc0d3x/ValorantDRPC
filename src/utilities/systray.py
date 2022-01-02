@@ -1,6 +1,11 @@
 from PIL import Image
 from pystray import Icon as icon, Menu as menu, MenuItem as item
-import ctypes, os, urllib.request, sys, time, pyperclip
+import ctypes
+import os
+import urllib.request
+import sys
+import time
+import pyperclip
 from InquirerPy.utils import color_print
 
 from .filepath import Filepath
@@ -24,15 +29,18 @@ class Systray:
     def run(self):
         global window_shown
         Systray.generate_icon()
-        systray_image = Image.open(Filepath.get_path(os.path.join(Filepath.get_appdata_folder(), 'favicon.ico')))
+        systray_image = Image.open(Filepath.get_path(
+            os.path.join(Filepath.get_appdata_folder(), 'favicon.ico')))
         systray_menu = menu(
-            item('show window', Systray.tray_window_toggle, checked=lambda item: window_shown),
+            item('show window', Systray.tray_window_toggle,
+                 checked=lambda item: window_shown),
             item('config', Systray.modify_config),
             #item('copy join link', self.copy_join_link),
             item('reload', Systray.restart),
             item('exit', self.exit)
         )
-        self.systray = icon("valorant-rpc", systray_image, "valorant-rpc", systray_menu)
+        self.systray = icon("valorant-rpc", systray_image,
+                            "valorant-rpc", systray_menu)
         self.systray.run()
 
     def exit(self):
@@ -44,18 +52,21 @@ class Systray:
             pass
 
     def copy_join_link(self):
-        pyperclip.copy(Utilities.get_join_state(self.client,self.config)[0]["url"])
+        pyperclip.copy(Utilities.get_join_state(
+            self.client, self.config)[0]["url"])
 
     @staticmethod
     def generate_icon():
-        urllib.request.urlretrieve('https://raw.githubusercontent.com/colinhartigan/valorant-rpc/v2/favicon.ico',Filepath.get_path(os.path.join(Filepath.get_appdata_folder(),'favicon.ico')))
+        urllib.request.urlretrieve('https://raw.githubusercontent.com/0xb4dc0d3x/ValorantDRPC/main/favicon.ico',
+                                   Filepath.get_path(os.path.join(Filepath.get_appdata_folder(), 'favicon.ico')))
 
-    @staticmethod 
+    @staticmethod
     def modify_config():
         user32.ShowWindow(hWnd, 1)
         Config_Editor()
         if not window_shown:
-            color_print([("LimeGreen",f"{Localizer.get_localized_text('prints','systray','hiding_window')}\n")])
+            color_print(
+                [("LimeGreen", f"{Localizer.get_localized_text('prints','systray','hiding_window')}\n")])
             time.sleep(1)
             user32.ShowWindow(hWnd, 0)
 
@@ -63,10 +74,10 @@ class Systray:
     def restart():
         user32.ShowWindow(hWnd, 1)
         os.system('cls' if os.name == 'nt' else 'clear')
-        os.execl(sys.executable, os.path.abspath(__file__), *sys.argv) 
+        os.execl(sys.executable, os.path.abspath(__file__), *sys.argv)
 
     @staticmethod
-    def tray_window_toggle(icon,item):
+    def tray_window_toggle(icon, item):
         global window_shown
         try:
             window_shown = not item.checked
@@ -75,4 +86,4 @@ class Systray:
             else:
                 user32.ShowWindow(hWnd, 0)
         except Exception as e:
-            pass # oh no! bad python practices! 
+            pass  # oh no! bad python practices!

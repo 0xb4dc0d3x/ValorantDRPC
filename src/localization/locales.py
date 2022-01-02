@@ -1,6 +1,6 @@
 Locales = {
     "en-US": {
-        "author": "HeiseN#6559",
+        "author": "HeiseN",
         "config": {
             "version": "version",
             "region": "region",
@@ -98,7 +98,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Loading",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },
@@ -201,7 +201,7 @@ Locales = {
             },
             "startup": {
                 "loading": "تحميل",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },
@@ -304,7 +304,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Lädt",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },
@@ -407,7 +407,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Cargando",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },
@@ -511,7 +511,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Cargando",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },
@@ -616,7 +616,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Caricamento",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },
@@ -719,7 +719,7 @@ Locales = {
             },
             "startup": {
                 "loading": "ロード中",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },
@@ -824,11 +824,11 @@ Locales = {
             },
             "startup": {
                 "loading": "Carregando",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },
-     "ru-RU": {
+    "ru-RU": {
         "author": "@teddn#6036",
         "config": {
             "version": "Версия",
@@ -921,13 +921,13 @@ Locales = {
                 "selecting": "Выбор...",
                 "locked": "Выбран",
             },
-            "leveling":{
+            "leveling": {
                 "level": "Уровень",
                 "ranked_rating": "RR",
             },
             "startup": {
                 "loading": "Загрука",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         }
     },
@@ -1030,7 +1030,7 @@ Locales = {
             },
             "startup": {
                 "loading": "กำลังโหลด",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },
@@ -1133,7 +1133,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Yükleniyor...",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },
@@ -1236,7 +1236,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Đang tải",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },
@@ -1268,7 +1268,7 @@ Locales = {
             "rank": "rang",
             "map": "carte",
         },
-       "prints": {
+        "prints": {
             "config_modification": {
                 "select_option": "sélectinnez une option de configuration",
                 "config_saved": "configuration sauvée! Relancez le programme pour que les changements prennent effets.",
@@ -1341,7 +1341,7 @@ Locales = {
             },
             "startup": {
                 "loading": "Chargement",
-                "view_github": "Burger🍔",
+                "view_github": "Download",
             }
         },
     },

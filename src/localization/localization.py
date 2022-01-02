@@ -1,6 +1,7 @@
 from InquirerPy import inquirer
 from .locales import Locales
 
+
 class Localizer:
 
     locale = "en-US"
@@ -26,12 +27,11 @@ class Localizer:
         except:
             return get_default(*keys)
 
-
     @staticmethod
     def get_config_key(key):
         try:
-            for k,value in Locales[Localizer.locale]["config"].items():
-                #print(f"{k}/{value}")
+            for k, value in Locales[Localizer.locale]["config"].items():
+                # print(f"{k}/{value}")
                 if k == key:
                     return value
             return key
@@ -40,8 +40,8 @@ class Localizer:
 
     @staticmethod
     def unlocalize_key(key):
-        for k,value in Locales[Localizer.locale]["config"].items():
-            #print(f"{k}/{value}")
+        for k, value in Locales[Localizer.locale]["config"].items():
+            # print(f"{k}/{value}")
             if value == key:
                 return k
         return key
@@ -56,9 +56,9 @@ class Localizer:
 
     @staticmethod
     def set_locale(config):
-        for locale,data in Locales.items():
+        for locale, data in Locales.items():
             if data != {}:
-                for key,value in data["config"].items():
+                for key, value in data["config"].items():
                     if key == "locale" and value in config.keys():
                         Localizer.locale = config[value][0]
 
@@ -70,9 +70,9 @@ class Localizer:
         choice = inquirer.select(
             message=f"select your locale (language)",
             default=current,
-            choices={option:option for option in options},
-            pointer=">"
+            choices={option: option for option in options},
+            pointer=">>"
         )
         choice = choice.execute()
-        locale[0] = choice 
+        locale[0] = choice
         return config
