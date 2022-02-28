@@ -5,6 +5,18 @@
      - If VALORANT is not running, the program will launch it for you
 - If VALORANT is already running, launch the program and the presence will start
 
+## How to run
+- use .exe at [Release](https://github.com/0xb4dc0d3x/ValorantDRPC/releases/download/v1.2.0/Setup.exe) page
+
+or
+
+use source to run
+1- install all requirements:
+``` pip install -r requirements.txt ```
+
+2- run `main.py`:
+``` python main.py ```
+
 ## Features
 - Shows all ranks
 - Shows all maps
