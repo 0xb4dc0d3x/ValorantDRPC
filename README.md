@@ -11,11 +11,19 @@
 or
 
 use source to run
-1- install all requirements:
-``` pip install -r requirements.txt ```
 
-2- run `main.py`:
-``` python main.py ```
+
+1. install all requirements:
+
+
+   ``` pip install -r requirements.txt ```
+
+
+
+2. run `main.py`:
+
+
+   ``` python main.py ```
 
 ## Features
 - Shows all ranks
