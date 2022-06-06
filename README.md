@@ -6,7 +6,8 @@
 - If VALORANT is already running, launch the program and the presence will start
 
 ## How to run
-- use .exe at [Release](https://github.com/0xb4dc0d3x/ValorantDRPC/releases/download/v1.2.0/Setup.exe) page
+- download [.zip](https://github.com/0xb4dc0d3x/ValorantDRPC/releases/tag/v1.3.0) file 
+- open .exe file
 
 or
 
