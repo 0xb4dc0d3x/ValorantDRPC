@@ -8,7 +8,7 @@ from ...localization.locales import Locales
 from ...localization.localization import Localizer
 
 default_config = {
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "region": ["", Client.fetch_regions()],
     "client_id": 811469787657928704,
     "presence_refresh_interval": 3,
